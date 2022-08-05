@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: rgb(252, 220, 255);
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.calculator {
+    width: 400px;
+    height: auto;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(255, 160, 247);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.1px rgb(0, 0, 0),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+
+.screencontainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid 1px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+.screen {
+    min-height: 40px;
+    font-size: 15px;
+  }
+
+
+.screentwo {
+    min-height: 40px;
+    font-size: 30px;
+  }
+
+
+.cleardelete {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px
+}
+
+.button {
+    background-color: rgb(255, 200, 255);
+    border: solid 1px;
+    border-radius: 10px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 0.1px rgb(5, 5, 5),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background-color: rgb(235, 35, 241);
+}
