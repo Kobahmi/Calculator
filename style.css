@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(252, 220, 255);
+    background-image: linear-gradient(to right,#ffddfd, rgb(235, 134, 248));
 }
 
 h3 {
@@ -48,7 +48,6 @@ h3 {
     word-break: break-all;
 }
 
-
 .screen {
     min-height: 40px;
     font-size: 15px;
@@ -85,5 +84,14 @@ h3 {
 }
 
 .button:hover {
-    background-color: rgb(235, 35, 241);
+    background-color: rgb(249, 61, 255);
 }
+
+.red-btn {
+    background-color: rgb(235, 145, 253);
+}
+
+.blue-btn {
+    background-color: rgb(255, 103, 204);
+}
+
